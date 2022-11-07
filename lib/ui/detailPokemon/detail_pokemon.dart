@@ -63,7 +63,7 @@ class DetailPokemon extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    bottom: Get.size.height * 0.1,
+                    bottom: Get.size.height * 0.2,
                     right: 0,
                     left: 0,
                     child: Container(
@@ -224,7 +224,7 @@ class DetailPokemon extends StatelessWidget {
                                     grass),
                           ),
                           const SizedBox(
-                            height: 8,
+                            height: 10,
                           ),
                           Column(
                             children: controller.detailPokemonModel!.stats!.isNotEmpty? controller.detailPokemonModel!.stats!.map((e) => Row(
@@ -238,6 +238,7 @@ class DetailPokemon extends StatelessWidget {
                                         Text(e.stat?.name?.getPokemonStat() ?? '', style: GoogleFonts.mali(fontSize: 12),),
                                       ],
                                     )),
+                                const SizedBox(height: 20,),
                                 Flexible(
                                     flex: 1,
                                     child: Column(
