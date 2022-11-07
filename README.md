@@ -1,16 +1,16 @@
-# api_pokemon
+# PokeDex API
 
-A new Flutter project.
+Project untuk get API dari pokemon, salah satu tugas dari Candradimuka Jabar Coding Camp 2022
 
-## Getting Started
+## Alikasi PokeDex
 
-This project is a starting point for a Flutter application.
+dan berikut hasil dari get API Pokedexnya.
 
-A few resources to get you started if this is your first Flutter project:
+dan berikut tampilan dari aplikasi pokedex.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Tampilan dari Aplikasi PokeDex.](https://raw.githubusercontent.com/AaMaul/PokeDex/master/gitassets/tampilan_pokedex.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Tampilan List Pokmon
+- Tampilan detail dari setiap Pokemon
+- Fitur Pencarian belum berfungsi
+- Fitur favorite belum berfungsi
